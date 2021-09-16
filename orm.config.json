@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "username": "postgres",
+  "password": "postgres",
+  "database": "crud-post",
+  "port": 5432,
+  "synchronize": true,
+  "entities": ["src/modules/**/**/*.entity{.ts,.js}"],
+  "migrations": ["src/Database/migrations/*{.ts,.js}"],
+  "seeds": ["./src/Database/seeds/*{.ts,.js}"],
+  "factories": ["./src/Database/factories/*{.ts,.js}"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/Database/migrations"
+  }
+}
