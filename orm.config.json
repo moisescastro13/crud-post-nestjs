@@ -7,11 +7,11 @@
   "port": 5432,
   "synchronize": true,
   "entities": ["src/modules/**/**/*.entity{.ts,.js}"],
-  "migrations": ["src/Database/migrations/*{.ts,.js}"],
-  "seeds": ["./src/Database/seeds/*{.ts,.js}"],
-  "factories": ["./src/Database/factories/*{.ts,.js}"],
+  "migrations": ["src/database/migrations/*{.ts,.js}"],
+  "seeds": ["./src/database/seeds/*{.ts,.js}"],
+  "factories": ["./src/database/factories/*{.ts,.js}"],
   "cli": {
     "entitiesDir": "src/entity",
-    "migrationsDir": "src/Database/migrations"
+    "migrationsDir": "src/database/migrations"
   }
 }
